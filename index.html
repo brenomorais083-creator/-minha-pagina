@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gotham City - Bat-Sinal</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <div class="gotham-cenario" id="cenario">
+
+    <div class="lua"></div>
+    <div class="nuvem n1"></div>
+    <div class="nuvem n2"></div>
+
+   
+    <div class="feixe-luz" id="feixe-luz"></div>
+    <div class="bat-sinal" id="bat-sinal">
+
+      <svg viewBox="0 0 200 110" class="morcego-svg">
+        <path d="M100,25 C95,25 93,12 90,12 C88,12 86,28 80,30 C68,34 55,20 35,20 C18,20 5,32 5,32 C18,36 25,48 22,60 C35,55 48,62 52,75 C64,65 80,68 88,82 C94,72 98,92 100,98 C102,92 106,72 112,82 C120,68 136,65 148,75 C152,62 165,55 178,60 C175,48 182,36 195,32 C195,32 182,20 165,20 C145,20 132,34 120,30 C114,28 112,12 110,12 C107,12 105,25 100,25 Z" />
+      </svg>
+    </div>
+
+
+    <div class="chuva-container" id="chuva"></div>
+
+
+    <div class="predios-fundo">
+      <div class="predio pf1"></div>
+      <div class="predio pf2"></div>
+      <div class="predio pf3"></div>
+      <div class="predio pf4"></div>
+    </div>
+
+    <div class="predios-frente">
+      <div class="predio p1">
+        <div class="janelas"></div>
+      </div>
+      <div class="predio p2">
+        <div class="janelas"></div>
+      </div>
+
+      <div class="predio p-gcpd">
+        <div class="holofote-base"></div>
+        <div class="holofote-canhao" id="holofote"></div>
+        <div class="janelas"></div>
+      </div>
+      <div class="predio p3">
+        <div class="janelas"></div>
+      </div>
+      <div class="predio p4">
+        <div class="janelas"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="controles">
+    <p id="aviso">🌧️ Noite chuvosa em Gotham City. O Bat-Sinal está desligado.</p>
+    <button id="interruptor">🦇 Ligar Bat-Sinal</button>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
